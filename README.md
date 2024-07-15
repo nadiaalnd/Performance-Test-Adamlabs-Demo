@@ -21,7 +21,7 @@
 - Open Terminal or Command Prompt
 - Change to the K6-ADAMLABS Directory
   > ```
-  > cd K6-ADAMLABS
+  > cd Performance-Test-ADAMLABS
   > ```
 - Install K6
   > ```
@@ -31,9 +31,9 @@
   > ```
   > npm install k6
   > ```
-- Run the Tests
-    - For example, to run the `auth` module:
-      > ```
+- Run the Tests 
+  For example, to run the `auth` module:
+    > ```
     > k6 run scripts/auth/PostLogin.js
     > ```
 
