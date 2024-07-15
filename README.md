@@ -8,7 +8,7 @@
 - [Documentation](#documentation)
     - [How To Run?](#how-to-run)
     - [Notes](#notes)
-- [Tester](#contact)
+- [Tester](#tester)
 
 ## Author
 
