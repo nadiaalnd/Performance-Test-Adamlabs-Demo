@@ -7,8 +7,8 @@ const POST_ENDPOINTS_AFTER = [
 ];
 
 const payload = JSON.stringify({
-  "no_lab": "RS0/240716/0002",
-  "registrasi_id": 13,
+  "no_lab": "W01/240718/0001",
+  "registrasi_id": 2000004,
   "status_terbit": true
 });
 
