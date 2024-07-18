@@ -3,6 +3,7 @@ import {getDataDaftarPasien} from "./GetAllPatient.js";
 import {getDataInputHasilPemeriksaanPasien} from "./GetInputResult.js";
 import {getDataVerifikasiHasilPemeriksaan} from "./GetVerification.js";
 import {putDataAmbilSample} from "./PutCollectSample.js";
+import {postPemeriksaanArsip} from "./PostDataArchives.js";
 
 export const options = {
   stages: [
@@ -24,6 +25,7 @@ export default function() {
   getDataInputHasilPemeriksaanPasien();
   getDataVerifikasiHasilPemeriksaan();
   putDataAmbilSample();
+  postPemeriksaanArsip();
   sleep(1);
 
 }

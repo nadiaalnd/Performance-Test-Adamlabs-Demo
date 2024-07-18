@@ -19,9 +19,9 @@
 ## How To Run?
 
 - Open Terminal or Command Prompt
-- Change to the K6-ADAMLABS Directory
+- Change to the Performance-Test-Adamlabs-Demo Directory
   > ```
-  > cd Performance-Test-ADAMLABS
+  > cd Performance-Test-Adamlabs-Demo
   > ```
 - Install K6
   > ```

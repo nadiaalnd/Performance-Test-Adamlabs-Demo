@@ -3,6 +3,7 @@ import {getDataInputHasilPemeriksaanPasien} from "./GetInputResult.js";
 import {getDataVerifikasiHasilPemeriksaan} from "./GetVerification.js";
 import {putDataAmbilSample} from "./PutCollectSample.js";
 import {sleep} from "k6";
+import {postPemeriksaanArsip} from "./PostDataArchives.js";
 
 
 export const options = {
@@ -15,5 +16,6 @@ export default function() {
   getDataInputHasilPemeriksaanPasien();
   getDataVerifikasiHasilPemeriksaan();
   putDataAmbilSample();
+  postPemeriksaanArsip();
   sleep(1);
 }
