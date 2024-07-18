@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # PERFORMANCE TEST DEMO ADAMLABS
 
 ## Table Of Contents
@@ -43,8 +44,6 @@
 - Make sure you have K6 installed to run the performance tests.
 
 ---
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Tester
 
