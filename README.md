@@ -34,7 +34,7 @@
 - Run the Tests 
   For example, to run the `auth` module:
     > ```
-    > k6 run scripts/auth/PostLogin.js
+    > k6 run scripts/auth/Test.js
     > ```
 
 ## Notes
